@@ -899,6 +899,16 @@
       }
     }
   }
+  .sm\:flex-col {
+    @media (width >= 40rem) {
+      flex-direction: column;
+    }
+  }
+  .md\:flex-col {
+    @media (width >= 48rem) {
+      flex-direction: column;
+    }
+  }
 }
 @property --tw-border-style {
   syntax: "*";
