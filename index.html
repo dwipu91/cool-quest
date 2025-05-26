@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/output.css" />
+
     <title>CoolQuest</title>
   </head>
   <body>
     <header
-      class="bg-[url(../image/hero-section.png)] py-5 object-cover bg-cover bg-no-repeat"
+      class="bg-[url(../image/hero-section.png)] py-5 object-cover bg-cover bg-no-repeat container m-auto"
     >
-      <div class="flex justify-center md:flex-col">
+      <div class="flex justify-center">
         <div class="max-w-[1140px] w-full mt-[26px] fixed z-50">
           <div
             class="flex justify-between items-center bg-[#fff] rounded-[50px] py-[7px] pl-[27px] pr-[13px]"
@@ -18,9 +19,9 @@
             <div class="py-[8px]">
               <img src="../image/CoolQuest.png" alt="" />
             </div>
-            <div>
+            <div class="" id="menu-bar">
               <ul
-                class="flex gap-[20px] text-[18px] text-[#1A1A1A] font-[600] leading-[24px] tracking-[0.02%]"
+                class="flex gap-[20px] md:gap-[15px] sm:gap-0 text-[18px] text-[#1A1A1A] font-[600] leading-[24px] tracking-[0.02%]"
               >
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Services</a></li>
@@ -42,10 +43,12 @@
       </div>
       <!-- benner section -->
       <div
-        class="flex justify-between gap-2 align-middle bannter-text max-w-[1140px] w-full mt-[191px] mx-auto"
+        class="flex justify-between gap-2 align-middle bannter-text max-w-[1140px] w-full mt-[191px] lg:mt[150px] lg:px-10 md:mt-[130px] sm:mt-[80px] mx-auto"
       >
         <div class="py-6">
-          <h1 class="text-[64px] font-bold text-white py-1 leading-16">
+          <h1
+            class="text-[64px] sm:text-[35px] font-bold text-white py-1 leading-16"
+          >
             Reliable HVAC for <br />
             Every Season
           </h1>
@@ -115,7 +118,7 @@
         </div>
       </div>
     </header>
-
+    <!-- test on  -->
     <!-- main secton -->
     <main class="">
       <section class="h-[671px] max-w-[1076px] w-full m-auto py-26">
@@ -857,5 +860,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- script js -->
+    <script src="script.js"></script>
   </body>
 </html>
